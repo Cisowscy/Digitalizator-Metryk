@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #63bbd2;
+      }
+
+      .cls-2, .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+        stroke-width: 1.2px;
+        stroke-dasharray: 3 0;
+        opacity: 0.35;
+      }
+
+      .cls-3 {
+        opacity: 0.45;
+      }
+
+      .cls-4 {
+        stroke-linecap: round;
+        stroke-width: 2.5px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="CONTROL_INFO" transform="translate(-86 -4)">
+    <circle id="Ellipse_147" data-name="Ellipse 147" class="cls-1" cx="10" cy="10" r="10" transform="translate(86 4)"/>
+    <g id="Ellipse_160" data-name="Ellipse 160" class="cls-2" transform="translate(86 4)">
+      <circle class="cls-5" cx="10" cy="10" r="10"/>
+      <circle class="cls-6" cx="10" cy="10" r="9.4"/>
+    </g>
+    <g id="Group_149" data-name="Group 149" class="cls-3" transform="translate(86 4)">
+      <line id="Line_7" data-name="Line 7" class="cls-4" y2="5" transform="translate(10 10.5)"/>
+      <circle id="Ellipse_148" data-name="Ellipse 148" cx="1.5" cy="1.5" r="1.5" transform="translate(8.5 4)"/>
+    </g>
+  </g>
+</svg>

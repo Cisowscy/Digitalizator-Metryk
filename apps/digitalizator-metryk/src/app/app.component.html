@@ -1,0 +1,77 @@
+<div
+  [style.background-color]="getBackgroundColorTheme()"
+  class="kontener-app-body"
+>
+
+  <!--<mat-toolbar color="primary" class="kl-toolbar-root"></mat-toolbar>-->
+  <header class="toolbar-horizontal toolbar-header theme-toolbar-header">
+    <div class="theme-buttons-win" id="buttonsWin" >
+      <span (click)="winControl_exit()"><img src="assets/svgs/winControl_exit.svg" /></span>
+      <span (click)="winControl_hide()"><img src="assets/svgs/winControl_hide.svg" /></span>
+      <span (click)="winControl_size()"><img src="assets/svgs/winControl_size.svg" /></span>
+      <span (click)="winControl_info()"><img src="assets/svgs/winControl_info.svg" /></span>
+    </div>
+    <span class="theme-text-title">Cisowscy.com/Software/Digitalizator-Metryk</span>
+  </header>
+  <main class="kontener-app-main">
+
+    <nav class="toolbar-vertical theme-toolbar-vertical">
+        <div *ngFor="let section of asides[0]">
+            <ng-container *ngFor="let el of section">
+              <span 
+              (click)="clickTogleDrawer(el.aside, el.link)">              
+                <img [src]="el.srcSVG" />
+              </span>
+            </ng-container>        
+        </div>
+    </nav>
+
+    <mat-drawer-container class="kontener-root theme-panel-main">
+      <mat-drawer
+        #Lewy
+        position="start"
+        class="theme-panel-aside"
+        mode="side"
+        [(opened)]="isOpenDrawer[0]"
+      >
+        <router-outlet name='aside0'></router-outlet>
+      </mat-drawer>
+      <mat-drawer
+        #Prawy
+        position="end"
+        class="theme-panel-aside"
+        mode="side"
+        [(opened)]="isOpenDrawer[2]"
+      >
+        <router-outlet name='aside2'></router-outlet>
+      </mat-drawer>
+
+      <mat-drawer-content>
+
+        <i class="material-icons">contact_support</i>
+        
+
+        <router-outlet  name='main'></router-outlet>
+
+
+      </mat-drawer-content>
+    </mat-drawer-container>
+    <nav class="toolbar-vertical theme-toolbar-vertical">
+      <div *ngFor="let section of asides[1]">
+        <ng-container *ngFor="let el of section">
+          <span 
+          (click)="clickTogleDrawer(el.aside, el.link)">
+          
+            <img [src]="el.srcSVG" />
+          </span>
+        </ng-container>        
+      </div>
+    </nav>
+
+  </main>
+
+  <footer class="toolbar-horizontal theme-toolbar-footer">
+    <span class="theme-text-status">To bedzie pasek stanu</span>
+  </footer>
+
+</div>

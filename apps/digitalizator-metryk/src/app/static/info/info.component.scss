@@ -1,0 +1,46 @@
+@mixin flex($direction, $wrap) {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+  }
+
+article{
+    width: 100%;
+    @include flex(column, nowrap);
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+main{
+    width: 100%; 
+    @include flex(row, wrap);
+    justify-content:space-between;
+    align-content: flex-start;
+}
+section{
+    width: 70%;
+    @include flex(column, nowrap);
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+aside{
+    width: 25%;
+    @include flex(column, nowrap);
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+.punkt{
+    @include flex(row, nowrap);
+    justify-content:space-around;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 5px;
+
+    span{
+        margin-left: 3px;
+    }
+}

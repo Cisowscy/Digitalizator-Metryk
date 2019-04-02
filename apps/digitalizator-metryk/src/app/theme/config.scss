@@ -1,0 +1,98 @@
+// KOLOR BACKGROUND
+$nakladka-gornej-listwy: rgba(66, 66, 66, 0.6);
+$nakladka-boczne-listwy: rgba(60, 60, 60, 0.60);
+$nakladka-dolnej-listwy: rgba(30, 30, 30, 0.75);
+
+$nakladka-czesci-centr1: rgba(65, 65, 65, 0.65);
+$nakladka-czesci-centr2: rgba(0, 0, 0, 0.3);
+
+// WYMIARY PODSTAWOWE
+$wysokosc-gornej-listwy: 30px;
+$wysokosc-dolnej-listwy: 25px;
+$serokosc-boczne-listwy: 50px;
+
+// WYMIARY DODATKOWE
+$serokosc-sekcji-kontroli: 130px;
+$wysokosc-sekcji-nawigacj: 320px;
+
+// KOLOR TEKSTU
+$tekst-gornej-listwy: rgba(255, 255, 255, 0.7);
+$tekst-dolnej-listwy: rgba(255, 255, 255, 0.7);
+
+// PANELE BOCZNE, POCZATKOWE WYMIARY
+$start-serokosc-panelu-bocznego: 300px;
+$margin-wewnetr-panelu-bocznego: 2px;
+
+
+@mixin no-select {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  -o-user-select: none;
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+
+  cursor: default;
+}
+
+
+.theme-toolbar-header {
+  height: $wysokosc-gornej-listwy;
+  background-color: $nakladka-gornej-listwy;
+
+  .theme-buttons-win {
+    margin-left: calc(($wysokosc-gornej-listwy - 20px)/2);
+    width: $serokosc-sekcji-kontroli;
+  }
+
+  .theme-text-title {
+    color: $tekst-gornej-listwy;
+    margin-left: calc(($wysokosc-gornej-listwy - 20px)/2);
+    margin-right: calc(($wysokosc-gornej-listwy - 20px)/2);
+    @include no-select;
+  }
+}
+
+.theme-toolbar-footer {
+  height: $wysokosc-dolnej-listwy;
+  background-color: $nakladka-dolnej-listwy;
+
+  .theme-text-status {
+    color: $tekst-dolnej-listwy;
+    margin-left: calc(($wysokosc-gornej-listwy - 20px)/2);
+    margin-right: calc(($wysokosc-gornej-listwy - 20px)/2);
+    @include no-select;
+  }
+}
+
+.theme-toolbar-vertical {
+  width: $serokosc-boczne-listwy;
+  background-color: $nakladka-boczne-listwy;
+
+  .theme-toolbar-vertical-section {
+    height: $wysokosc-sekcji-nawigacj;
+    width: $serokosc-boczne-listwy;
+  }
+}
+
+.theme-panel-main {
+  background-color: $nakladka-czesci-centr1;
+}
+
+.theme-panel-aside {
+  background-color: $nakladka-czesci-centr2;
+  width: $start-serokosc-panelu-bocznego;
+  padding: $margin-wewnetr-panelu-bocznego;
+
+  ::ng-deep .mat-form-field-infix {
+    width: calc($start-serokosc-panelu-bocznego - 10px);
+  }
+
+}

@@ -1,0 +1,9 @@
+$cissas-dark-primary: mat-palette($mat-grey, 700, 300, 900);
+$cissas-dark-accent: mat-palette($mat-blue-grey, 400);
+$cissas-dark-warn: mat-palette($mat-red, 500);
+
+$cissas-dark-theme: mat-dark-theme(
+  $cissas-dark-primary,
+  $cissas-dark-accent,
+  $cissas-dark-warn
+);

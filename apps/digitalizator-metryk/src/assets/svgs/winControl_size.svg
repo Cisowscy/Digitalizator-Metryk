@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #32c747;
+      }
+
+      .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 1.2px;
+        stroke-dasharray: 3 0;
+        opacity: 0.35;
+      }
+
+      .cls-3 {
+        opacity: 0.45;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="CONTROL_MAX" transform="translate(-59 -4)">
+    <circle id="Ellipse_146" data-name="Ellipse 146" class="cls-1" cx="10" cy="10" r="10" transform="translate(59 4)"/>
+    <g id="Ellipse_159" data-name="Ellipse 159" class="cls-2" transform="translate(59 4)">
+      <circle class="cls-4" cx="10" cy="10" r="10"/>
+      <circle class="cls-5" cx="10" cy="10" r="9.4"/>
+    </g>
+    <g id="Group_143" data-name="Group 143" class="cls-3" transform="translate(63.624 8.794)">
+      <path id="Path_2709" data-name="Path 2709" d="M72.482,1008.686l7.79,7.893v-7.893Z" transform="translate(-69.639 -1008.686)"/>
+      <path id="Path_2710" data-name="Path 2710" d="M0,0,7.79,7.893V0Z" transform="translate(7.79 10.735) rotate(180)"/>
+    </g>
+  </g>
+</svg>

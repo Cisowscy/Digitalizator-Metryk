@@ -1,0 +1,87 @@
+
+@mixin flex($direction, $wrap) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+@mixin inline-flex($direction, $wrap) {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+
+.kontener-app-body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  @include flex(column, nowrap);
+}
+
+.toolbar-horizontal {
+  width: 100%;
+  @include inline-flex(row, nowrap);
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.toolbar-header {
+
+  #buttonsWin {
+    @include inline-flex(row, nowrap);
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    filter: opacity(0.7);
+
+    span:hover {
+      filter: saturate(0);
+    }
+
+  }
+
+}
+
+.kontener-app-main {
+  flex: 1;
+  @include flex(row, nowrap);
+}
+
+.toolbar-vertical {
+  height: 100%;
+  @include flex(column, nowrap);
+  justify-content: space-between;
+
+  div {
+    margin: 0;
+    padding: 0;
+    @include flex(column, nowrap);
+    justify-content: space-evenly;
+
+    span {
+      filter: opacity(0.5);
+    }
+
+    span:hover {
+      filter: opacity(1);
+    }
+  }
+}
+
+.kontener-root {
+  flex: 1;
+}

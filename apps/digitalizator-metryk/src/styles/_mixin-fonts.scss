@@ -1,0 +1,841 @@
+@mixin TypeFace_Comfortaa {
+
+  // ! COMFORTAA  [ LAT_EXT + RUS_EXT + GREK + VIET]
+  // * REGULARNA + Cienika + TŁUSTA
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Comfortaa Light'), local('Comfortaa-Light'), url('./assets/fonts/Comfortaa-Light_cyrillic-ext.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Light.ttf') format('truetype');
+    font-display: fallback;
+    /*/* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw5qN_D9Cb_Vo.woff2) format('woff2')*/
+    unicode-range: U+0460 - 052F, U+1C80 - 1C88, U+20B4, U+2DE0 - 2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+  /* cyrillic */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Comfortaa Light'), local('Comfortaa-Light'), url('./assets/fonts/Comfortaa-Light_cyrillic.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Light.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw5qN_BtCb_Vo.woff2) format('woff2') */
+    unicode-range: U+0400 - 045F, U+0490 - 0491, U+04B0 - 04B1, U+2116;
+  }
+
+  /* greek */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Comfortaa Light'), local('Comfortaa-Light'), url('./assets/fonts/Comfortaa-Light_greek.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Light.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw5qN_AdCb_Vo.woff2) format('woff2') */
+    unicode-range: U+0370 - 03FF;
+  }
+
+  /* vietnamese */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Comfortaa Light'), local('Comfortaa-Light'), url('./assets/fonts/Comfortaa-Light_vietnamese.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Light.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw5qN_DdCb_Vo.woff2) format('woff2') */
+    unicode-range: U+0102 - 0103, U+0110 - 0111, U+1EA0 - 1EF9, U+20AB;
+  }
+
+  /* latin-ext */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Comfortaa Light'), local('Comfortaa-Light'), url('./assets/fonts/Comfortaa-Light_latin-ext.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Light.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw5qN_DNCb_Vo.woff2) format('woff2') */
+    unicode-range: U+0100 - 024F, U+0259, U+1E00 - 1EFF, U+2020, U+20A0 - 20AB, U+20AD-20CF, U+2113, U+2C60 - 2C7F, U+A720-A7FF;
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Comfortaa Light'), local('Comfortaa-Light'), url('./assets/fonts/Comfortaa-Light_latin.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Light.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw5qN_AtCb.woff2) format('woff2') */
+    unicode-range: U+0000 - 00FF, U+0131, U+0152 - 0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000 - 206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url('./assets/fonts/Comfortaa-Regular_cyrillic-ext.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptsg8LJRfWJmhDAuUs4QIFqPfE.woff2) format('woff2') */
+    unicode-range: U+0460 - 052F, U+1C80 - 1C88, U+20B4, U+2DE0 - 2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+  /* cyrillic */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url('./assets/fonts/Comfortaa-Regular_cyrillic.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptsg8LJRfWJmhDAuUs4SYFqPfE.woff2) format('woff2') */
+    unicode-range: U+0400 - 045F, U+0490 - 0491, U+04B0 - 04B1, U+2116;
+  }
+
+  /* greek */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url('./assets/fonts/Comfortaa-Regular_greek.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptsg8LJRfWJmhDAuUs4ToFqPfE.woff2) format('woff2') */
+    unicode-range: U+0370 - 03FF;
+  }
+
+  /* vietnamese */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url('./assets/fonts/Comfortaa-Regular_vietnamese.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptsg8LJRfWJmhDAuUs4QoFqPfE.woff2) format('woff2') */
+    unicode-range: U+0102 - 0103, U+0110 - 0111, U+1EA0 - 1EF9, U+20AB;
+  }
+
+  /* latin-ext */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url('./assets/fonts/Comfortaa-Regular_latin-ext.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptsg8LJRfWJmhDAuUs4Q4FqPfE.woff2) format('woff2') */
+    unicode-range: U+0100 - 024F, U+0259, U+1E00 - 1EFF, U+2020, U+20A0 - 20AB, U+20AD-20CF, U+2113, U+2C60 - 2C7F, U+A720-A7FF;
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url('./assets/fonts/Comfortaa-Regular_latin.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptsg8LJRfWJmhDAuUs4TYFq.woff2) format('woff2') */
+    unicode-range: U+0000 - 00FF, U+0131, U+0152 - 0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000 - 206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url('./assets/fonts/Comfortaa-Bold_cyrillic-ext.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw9qR_D9Cb_Vo.woff2) format('woff2') */
+    unicode-range: U+0460 - 052F, U+1C80 - 1C88, U+20B4, U+2DE0 - 2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+  /* cyrillic */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url('./assets/fonts/Comfortaa-Bold_cyrillic.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw9qR_BtCb_Vo.woff2) format('woff2') */
+    unicode-range: U+0400 - 045F, U+0490 - 0491, U+04B0 - 04B1, U+2116;
+  }
+
+  /* greek */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url('./assets/fonts/Comfortaa-Bold_greek.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw9qR_AdCb_Vo.woff2) format('woff2') */
+    unicode-range: U+0370 - 03FF;
+  }
+
+  /* vietnamese */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url('./assets/fonts/Comfortaa-Bold_vietnamese.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw9qR_DdCb_Vo.woff2) format('woff2') */
+    unicode-range: U+0102 - 0103, U+0110 - 0111, U+1EA0 - 1EF9, U+20AB;
+  }
+
+  /* latin-ext */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url('./assets/fonts/Comfortaa-Bold_latin-ext.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw9qR_DNCb_Vo.woff2) format('woff2') */
+    unicode-range: U+0100 - 024F, U+0259, U+1E00 - 1EFF, U+2020, U+20A0 - 20AB, U+20AD-20CF, U+2113, U+2C60 - 2C7F, U+A720-A7FF;
+  }
+
+  /* latin */
+  @font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url('./assets/fonts/Comfortaa-Bold_latin.woff2') format('woff2'), url('./assets/fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-display: fallback;
+    /* url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw9qR_AtCb.woff2) format('woff2') */
+    unicode-range: U+0000 - 00FF, U+0131, U+0152 - 0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000 - 206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+}
+
+
+// 
+// @mixin TypeFace_Lobster {
+// 
+//   // ! LOBSTER 1 [ LAT_EXT + RUS_EXT + VIET ]
+//   // * REGULARNA
+//   /* cyrillic-ext */
+//   @font-face {
+//     font-family: 'Lobster';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Lobster Regular'), local('Lobster-Regular'), url('./assets/fonts/Lobster-Regular_cyrillic-ext.woff2') format('woff2'), url('./assets/fonts/Lobster-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/lobster/v20/neILzCirqoswsqX9zo-mM5Ez.woff2) format('woff2') */
+//     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+//   }
+// 
+//   /* cyrillic */
+//   @font-face {
+//     font-family: 'Lobster';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Lobster Regular'), local('Lobster-Regular'), url('./assets/fonts/Lobster-Regular_cyrillic.woff2') format('woff2'), url('./assets/fonts/Lobster-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/lobster/v20/neILzCirqoswsqX9zoamM5Ez.woff2) format('woff2') */
+//     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+//   }
+// 
+//   /* vietnamese */
+//   @font-face {
+//     font-family: 'Lobster';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Lobster Regular'), local('Lobster-Regular'), url('./assets/fonts/Lobster-Regular_vietnamese.woff2') format('woff2'), url('./assets/fonts/Lobster-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/lobster/v20/neILzCirqoswsqX9zo2mM5Ez.woff2) format('woff2') */
+//     unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+//   }
+// 
+//   /* latin-ext */
+//   @font-face {
+//     font-family: 'Lobster';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Lobster Regular'), local('Lobster-Regular'), url('./assets/fonts/Lobster-Regular_latin-ext.woff2') format('woff2'), url('./assets/fonts/Lobster-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/lobster/v20/neILzCirqoswsqX9zoymM5Ez.woff2) format('woff2') */
+//     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+//   }
+// 
+//   /* latin */
+//   @font-face {
+//     font-family: 'Lobster';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Lobster Regular'), local('Lobster-Regular'), url('./assets/fonts/Lobster-Regular_latin.woff2') format('woff2'), url('./assets/fonts/Lobster-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/lobster/v20/neILzCirqoswsqX9zoKmMw.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// }
+// 
+// @mixin TypeFace_LobsterTwo {
+// 
+//   // ! LOBSTER 2 [ LAT ]
+//   // * REGULARNA + KURSYWA + TŁUSTA + TŁUSTA KURSYWA
+//   /* latin */
+//   @font-face {
+//     font-family: 'Lobster Two';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Lobster Two Italic'), local('LobsterTwo-Italic'), url('./assets/fonts/LobsterTwo-Italic_latin.woff2') format('woff2'), url('./assets/fonts/LobsterTwo-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/lobstertwo/v10/BngOUXZGTXPUvIoyV6yN5-fI1qeh5A.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// 
+//   /* latin */
+//   @font-face {
+//     font-family: 'Lobster Two';
+//     font-style: italic;
+//     font-weight: 700;
+//     src: local('Lobster Two Bold Italic'), local('LobsterTwo-BoldItalic'), url('./assets/fonts/LobsterTwo-BoldItalic_latin.woff2') format('woff2'), url('./assets/fonts/LobsterTwo-BoldItalic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/lobstertwo/v10/BngTUXZGTXPUvIoyV6yN5-fI3hyE8R-ifg.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// 
+//   /* latin */
+//   @font-face {
+//     font-family: 'Lobster Two';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Lobster Two'), local('LobsterTwo'), url('./assets/fonts/LobsterTwo-Regular_latin.woff2') format('woff2'), url('./assets/fonts/LobsterTwo-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/lobstertwo/v10/BngMUXZGTXPUvIoyV6yN5-fN5qU.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// 
+//   /* latin */
+//   @font-face {
+//     font-family: 'Lobster Two';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Lobster Two Bold'), local('LobsterTwo-Bold'), url('./assets/fonts/LobsterTwo-Bold_latin.woff2') format('woff2'), url('./assets/fonts/LobsterTwo-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/lobstertwo/v10/BngRUXZGTXPUvIoyV6yN5-92w7CGwR0.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// }
+// 
+// @mixin TypeFace_OldStandardTT {
+// 
+//   // ! OLD STANDARD TT [ LAT_EXT + RUS_EXT + VIET ]
+//   // * REGULARNA + KURSYWA + TŁUSTA
+//   /* cyrillic-ext */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Old Standard TT Italic'), local('OldStandardTT-Italic'), local('OldStandard-Italic'), local('Old Standard Italic'), url('./assets/fonts/OldStandard-Italic_cyrillic-ext.woff2') format('woff2'), url('./assets/fonts/OldStandard-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQsbh3o1vLImiwAVvYawgcf2eVer2q3bHNiZg.woff2) format('woff2') */
+//     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+//   }
+// 
+//   /* cyrillic */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Old Standard TT Italic'), local('OldStandardTT-Italic'), local('OldStandard-Italic'), local('Old Standard Italic'), url('./assets/fonts/OldStandard-Italic_cyrillic.woff2') format('woff2'), url('./assets/fonts/OldStandard-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQsbh3o1vLImiwAVvYawgcf2eVer2q-bHNiZg.woff2) format('woff2') */
+//     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+//   }
+// 
+//   /* vietnamese */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Old Standard TT Italic'), local('OldStandardTT-Italic'), local('OldStandard-Italic'), local('Old Standard Italic'), url('./assets/fonts/OldStandard-Italic_vietnamese.woff2') format('woff2'), url('./assets/fonts/OldStandard-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQsbh3o1vLImiwAVvYawgcf2eVer2q1bHNiZg.woff2) format('woff2') */
+//     unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+//   }
+// 
+//   /* latin-ext */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Old Standard TT Italic'), local('OldStandardTT-Italic'), local('OldStandard-Italic'), local('Old Standard Italic'), url('./assets/fonts/OldStandard-Italic_latin-ext.woff2') format('woff2'), url('./assets/fonts/OldStandard-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQsbh3o1vLImiwAVvYawgcf2eVer2q0bHNiZg.woff2) format('woff2') */
+//     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+//   }
+// 
+//   /* latin */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Old Standard TT Italic'), local('OldStandardTT-Italic'), local('OldStandard-Italic'), local('Old Standard Italic'), url('./assets/fonts/OldStandard-Italic_latin.woff2') format('woff2'), url('./assets/fonts/OldStandard-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQsbh3o1vLImiwAVvYawgcf2eVer2q6bHM.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// 
+//   /* cyrillic-ext */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), local('OldStandard-Regular'), local('Old Standard Regular'), url('./assets/fonts/OldStandard-Regular_cyrillic-ext.woff2') format('woff2'), url('./assets/fonts/OldStandard-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQubh3o1vLImiwAVvYawgcf2eVep1q4dHc.woff2) format('woff2') */
+//     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+//   }
+// 
+//   /* cyrillic */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), local('OldStandard-Regular'), local('Old Standard Regular'), url('./assets/fonts/OldStandard-Regular_cyrillic.woff2') format('woff2'), url('./assets/fonts/OldStandard-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQubh3o1vLImiwAVvYawgcf2eVerlq4dHc.woff2) format('woff2') */
+//     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+//   }
+// 
+//   /* vietnamese */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), local('OldStandard-Regular'), local('Old Standard Regular'), url('./assets/fonts/OldStandard-Regular_vietnamese.woff2') format('woff2'), url('./assets/fonts/OldStandard-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQubh3o1vLImiwAVvYawgcf2eVepVq4dHc.woff2) format('woff2') */
+//     unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+//   }
+// 
+//   /* latin-ext */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), local('OldStandard-Regular'), local('Old Standard Regular'), url('./assets/fonts/OldStandard-Regular_latin-ext.woff2') format('woff2'), url('./assets/fonts/OldStandard-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQubh3o1vLImiwAVvYawgcf2eVepFq4dHc.woff2) format('woff2') */
+//     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+//   }
+// 
+//   /* latin */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), local('OldStandard-Regular'), local('Old Standard Regular'), url('./assets/fonts/OldStandard-Regular_latin.woff2') format('woff2'), url('./assets/fonts/OldStandard-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQubh3o1vLImiwAVvYawgcf2eVeqlq4.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// 
+//   /* cyrillic-ext */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Old Standard TT Bold'), local('OldStandardTT-Bold'), local('OldStandard-Bold'), local('Old Standard Bold'), url('./assets/fonts/OldStandard-Bold_cyrillic-ext.woff2') format('woff2'), url('./assets/fonts/OldStandard-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQrbh3o1vLImiwAVvYawgcf2eVWEX-tRlZfX80.woff2) format('woff2') */
+//     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+//   }
+// 
+//   /* cyrillic */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Old Standard TT Bold'), local('OldStandardTT-Bold'), local('OldStandard-Bold'), local('Old Standard Bold'), url('./assets/fonts/OldStandard-Bold_cyrillic.woff2') format('woff2'), url('./assets/fonts/OldStandard-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQrbh3o1vLImiwAVvYawgcf2eVWEX-tT1ZfX80.woff2) format('woff2') */
+//     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+//   }
+// 
+//   /* vietnamese */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Old Standard TT Bold'), local('OldStandardTT-Bold'), local('OldStandard-Bold'), local('Old Standard Bold'), url('./assets/fonts/OldStandard-Bold_vietnamese.woff2') format('woff2'), url('./assets/fonts/OldStandard-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQrbh3o1vLImiwAVvYawgcf2eVWEX-tRFZfX80.woff2) format('woff2') */
+//     unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+//   }
+// 
+//   /* latin-ext */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Old Standard TT Bold'), local('OldStandardTT-Bold'), local('OldStandard-Bold'), local('Old Standard Bold'), url('./assets/fonts/OldStandard-Bold_latin-ext.woff2') format('woff2'), url('./assets/fonts/OldStandard-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQrbh3o1vLImiwAVvYawgcf2eVWEX-tRVZfX80.woff2) format('woff2') */
+//     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+//   }
+// 
+//   /* latin */
+//   @font-face {
+//     font-family: 'Old Standard TT';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Old Standard TT Bold'), local('OldStandardTT-Bold'), local('OldStandard-Bold'), local('Old Standard Bold'), url('./assets/fonts/OldStandard-Bold_latin.woff2') format('woff2'), url('./assets/fonts/OldStandard-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/oldstandardtt/v9/MwQrbh3o1vLImiwAVvYawgcf2eVWEX-tS1Zf.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// }
+// 
+// @mixin TypeFace_Tinos {
+// 
+//   // ! TINOS  [ LAT_EXT + RUS_EXT + GREK_EXT + HEBREW + VIET ]
+//   // * REGULARNA + KURSYWA + TŁUSTA + TŁUSTA KURSYWA
+//   /* cyrillic-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Tinos Italic'), local('Tinos-Italic'), url('./assets/fonts/Tinos-Italic_cyrillic-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE2poGnedXvwjX-TmtJ9RI-.woff2) format('woff2') */
+//     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+//   }
+// 
+//   /* cyrillic */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Tinos Italic'), local('Tinos-Italic'), url('./assets/fonts/Tinos-Italic_cyrillic.woff2') format('woff2'), url('./assets/fonts/Tinos-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE2poGnedXvwjX-TmJJ9RI-.woff2) format('woff2') */
+//     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+//   }
+// 
+//   /* greek-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Tinos Italic'), local('Tinos-Italic'), url('./assets/fonts/Tinos-Italic_greek-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE2poGnedXvwjX-TmpJ9RI-.woff2) format('woff2') */
+//     unicode-range: U+1F00-1FFF;
+//   }
+// 
+//   /* greek */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Tinos Italic'), local('Tinos-Italic'), url('./assets/fonts/Tinos-Italic_greek.woff2') format('woff2'), url('./assets/fonts/Tinos-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE2poGnedXvwjX-TmVJ9RI-.woff2) format('woff2') */
+//     unicode-range: U+0370-03FF;
+//   }
+// 
+//   /* hebrew */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Tinos Italic'), local('Tinos-Italic'), url('./assets/fonts/Tinos-Italic_hebrew.woff2') format('woff2'), url('./assets/fonts/Tinos-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE2poGnedXvwjX-TmRJ9RI-.woff2) format('woff2') */
+//     unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+//   }
+// 
+//   /* vietnamese */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Tinos Italic'), local('Tinos-Italic'), url('./assets/fonts/Tinos-Italic_vietnamese.woff2') format('woff2'), url('./assets/fonts/Tinos-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE2poGnedXvwjX-TmlJ9RI-.woff2) format('woff2') */
+//     unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+//   }
+// 
+//   /* latin-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Tinos Italic'), local('Tinos-Italic'), url('./assets/fonts/Tinos-Italic_latin-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE2poGnedXvwjX-TmhJ9RI-.woff2) format('woff2') */
+//     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+//   }
+// 
+//   /* latin */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Tinos Italic'), local('Tinos-Italic'), url('./assets/fonts/Tinos-Italic_latin.woff2') format('woff2'), url('./assets/fonts/Tinos-Italic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE2poGnedXvwjX-TmZJ9Q.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// 
+//   /* cyrillic-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 700;
+//     src: local('Tinos Bold Italic'), local('Tinos-BoldItalic'), url('./assets/fonts/Tinos-BoldItalic_cyrillic-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-BoldItalic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buEzpoGnedXvwjX-Rt1s4CAf_exL.woff2) format('woff2') */
+//     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+//   }
+// 
+//   /* cyrillic */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 700;
+//     src: local('Tinos Bold Italic'), local('Tinos-BoldItalic'), url('./assets/fonts/Tinos-BoldItalic_cyrillic.woff2') format('woff2'), url('./assets/fonts/Tinos-BoldItalic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buEzpoGnedXvwjX-Rt1s4Ckf_exL.woff2) format('woff2') */
+//     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+//   }
+// 
+//   /* greek-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 700;
+//     src: local('Tinos Bold Italic'), local('Tinos-BoldItalic'), url('./assets/fonts/Tinos-BoldItalic_greek-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-BoldItalic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buEzpoGnedXvwjX-Rt1s4CEf_exL.woff2) format('woff2') */
+//     unicode-range: U+1F00-1FFF;
+//   }
+// 
+//   /* greek */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 700;
+//     src: local('Tinos Bold Italic'), local('Tinos-BoldItalic'), url('./assets/fonts/Tinos-BoldItalic_greek.woff2') format('woff2'), url('./assets/fonts/Tinos-BoldItalic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buEzpoGnedXvwjX-Rt1s4C4f_exL.woff2) format('woff2') */
+//     unicode-range: U+0370-03FF;
+//   }
+// 
+//   /* hebrew */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 700;
+//     src: local('Tinos Bold Italic'), local('Tinos-BoldItalic'), url('./assets/fonts/Tinos-BoldItalic_hebrew.woff2') format('woff2'), url('./assets/fonts/Tinos-BoldItalic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buEzpoGnedXvwjX-Rt1s4C8f_exL.woff2) format('woff2') */
+//     unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+//   }
+// 
+//   /* vietnamese */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 700;
+//     src: local('Tinos Bold Italic'), local('Tinos-BoldItalic'), url('./assets/fonts/Tinos-BoldItalic_vietnamese.woff2') format('woff2'), url('./assets/fonts/Tinos-BoldItalic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buEzpoGnedXvwjX-Rt1s4CIf_exL.woff2) format('woff2') */
+//     unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+//   }
+// 
+//   /* latin-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 700;
+//     src: local('Tinos Bold Italic'), local('Tinos-BoldItalic'), url('./assets/fonts/Tinos-BoldItalic_latin-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-BoldItalic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buEzpoGnedXvwjX-Rt1s4CMf_exL.woff2) format('woff2') */
+//     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+//   }
+// 
+//   /* latin */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: italic;
+//     font-weight: 700;
+//     src: local('Tinos Bold Italic'), local('Tinos-BoldItalic'), url('./assets/fonts/Tinos-BoldItalic_latin.woff2') format('woff2'), url('./assets/fonts/Tinos-BoldItalic.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buEzpoGnedXvwjX-Rt1s4C0f_Q.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// 
+//   /* cyrillic-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Tinos Regular'), local('Tinos-Regular'), url('./assets/fonts/Tinos-Regular_cyrillic-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX2fmRR8Q.woff2) format('woff2') */
+//     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+//   }
+// 
+//   /* cyrillic */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Tinos Regular'), local('Tinos-Regular'), url('./assets/fonts/Tinos-Regular_cyrillic.woff2') format('woff2'), url('./assets/fonts/Tinos-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX_fmRR8Q.woff2) format('woff2') */
+//     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+//   }
+// 
+//   /* greek-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Tinos Regular'), local('Tinos-Regular'), url('./assets/fonts/Tinos-Regular_greek-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX3fmRR8Q.woff2) format('woff2') */
+//     unicode-range: U+1F00-1FFF;
+//   }
+// 
+//   /* greek */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Tinos Regular'), local('Tinos-Regular'), url('./assets/fonts/Tinos-Regular_greek.woff2') format('woff2'), url('./assets/fonts/Tinos-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX4fmRR8Q.woff2) format('woff2') */
+//     unicode-range: U+0370-03FF;
+//   }
+// 
+//   /* hebrew */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Tinos Regular'), local('Tinos-Regular'), url('./assets/fonts/Tinos-Regular_hebrew.woff2') format('woff2'), url('./assets/fonts/Tinos-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX5fmRR8Q.woff2) format('woff2') */
+//     unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+//   }
+// 
+//   /* vietnamese */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Tinos Regular'), local('Tinos-Regular'), url('./assets/fonts/Tinos-Regular_vietnamese.woff2') format('woff2'), url('./assets/fonts/Tinos-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX0fmRR8Q.woff2) format('woff2') */
+//     unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+//   }
+// 
+//   /* latin-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Tinos Regular'), local('Tinos-Regular'), url('./assets/fonts/Tinos-Regular_latin-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX1fmRR8Q.woff2) format('woff2') */
+//     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+//   }
+// 
+//   /* latin */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Tinos Regular'), local('Tinos-Regular'), url('./assets/fonts/Tinos-Regular_latin.woff2') format('woff2'), url('./assets/fonts/Tinos-Regular.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX7fmQ.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// 
+//   /* cyrillic-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Tinos Bold'), local('Tinos-Bold'), url('./assets/fonts/Tinos-Bold_cyrillic-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE1poGnedXvwj1AW3Fj0C8H-Q.woff2) format('woff2') */
+//     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+//   }
+// 
+//   /* cyrillic */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Tinos Bold'), local('Tinos-Bold'), url('./assets/fonts/Tinos-Bold_cyrillic.woff2') format('woff2'), url('./assets/fonts/Tinos-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE1poGnedXvwj1AW3Fq0C8H-Q.woff2) format('woff2') */
+//     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+//   }
+// 
+//   /* greek-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Tinos Bold'), local('Tinos-Bold'), url('./assets/fonts/Tinos-Bold_greek-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE1poGnedXvwj1AW3Fi0C8H-Q.woff2) format('woff2') */
+//     unicode-range: U+1F00-1FFF;
+//   }
+// 
+//   /* greek */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Tinos Bold'), local('Tinos-Bold'), url('./assets/fonts/Tinos-Bold_greek.woff2') format('woff2'), url('./assets/fonts/Tinos-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE1poGnedXvwj1AW3Ft0C8H-Q.woff2) format('woff2') */
+//     unicode-range: U+0370-03FF;
+//   }
+// 
+//   /* hebrew */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Tinos Bold'), local('Tinos-Bold'), url('./assets/fonts/Tinos-Bold_hebrew.woff2') format('woff2'), url('./assets/fonts/Tinos-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE1poGnedXvwj1AW3Fs0C8H-Q.woff2) format('woff2') */
+//     unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+//   }
+// 
+//   /* vietnamese */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Tinos Bold'), local('Tinos-Bold'), url('./assets/fonts/Tinos-Bold_vietnamese.woff2') format('woff2'), url('./assets/fonts/Tinos-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE1poGnedXvwj1AW3Fh0C8H-Q.woff2) format('woff2') */
+//     unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+//   }
+// 
+//   /* latin-ext */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Tinos Bold'), local('Tinos-Bold'), url('./assets/fonts/Tinos-Bold_latin-ext.woff2') format('woff2'), url('./assets/fonts/Tinos-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE1poGnedXvwj1AW3Fg0C8H-Q.woff2) format('woff2') */
+//     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+//   }
+// 
+//   /* latin */
+//   @font-face {
+//     font-family: 'Tinos';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Tinos Bold'), local('Tinos-Bold'), url('./assets/fonts/Tinos-Bold_latin.woff2') format('woff2'), url('./assets/fonts/Tinos-Bold.ttf') format('truetype');
+//     font-display: fallback;
+//     /* url(https://fonts.gstatic.com/s/tinos/v11/buE1poGnedXvwj1AW3Fu0C8.woff2) format('woff2') */
+//     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   }
+// }
+// 

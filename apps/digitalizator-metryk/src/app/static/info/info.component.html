@@ -1,0 +1,20 @@
+<article>
+  <header>
+    <h1>{{ nazwa }}</h1>
+    <h3>{{ strona }}</h3>
+  </header>
+  <main>
+    <section >
+      <p>{{ opis }}</p>
+      <ng-container *ngFor="let cecha of cechy">
+          <p class="punkt">
+              <img src="assets/svgs/feature.svg" />
+              <span>{{ cecha }}</span>
+          </p>
+      </ng-container>
+    </section>
+    <aside>
+      
+    </aside>
+  </main>
+</article>

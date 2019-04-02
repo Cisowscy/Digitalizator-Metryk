@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff6864;
+      }
+
+      .cls-2, .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+        stroke-width: 1.2px;
+        opacity: 0.35;
+      }
+
+      .cls-3 {
+        opacity: 0.45;
+      }
+
+      .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="CONTROL_EXIT" transform="translate(-5 -4)">
+    <circle id="Ellipse_145" data-name="Ellipse 145" class="cls-1" cx="10" cy="10" r="10" transform="translate(5 4)"/>
+    <g id="Ellipse_156" data-name="Ellipse 156" class="cls-2" transform="translate(5 4)">
+      <circle class="cls-5" cx="10" cy="10" r="10"/>
+      <circle class="cls-6" cx="10" cy="10" r="9.4"/>
+    </g>
+    <g id="Group_142" data-name="Group 142" class="cls-3" transform="translate(10.818 9.818)">
+      <line id="Line_4" data-name="Line 4" class="cls-4" x2="8.644" y2="8.644"/>
+      <line id="Line_5" data-name="Line 5" class="cls-4" x1="8.644" y2="8.644"/>
+    </g>
+  </g>
+</svg>

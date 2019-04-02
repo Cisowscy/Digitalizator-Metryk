@@ -9,7 +9,9 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "github:build": "ng build --prod --base-href https://Cisowscy.github.io/Digitalizator-Metryk/",
+    "github:deploy": "ngh --dir=dist/digitalizator-metryk"
   },
   "dependencies": {
     "@angular/animations": "~8.0.0-beta.10",

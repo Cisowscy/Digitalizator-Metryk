@@ -1,1 +1,0 @@
-# Digitalizator-Metryk
